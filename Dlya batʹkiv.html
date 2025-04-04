@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Теми уроків</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menuh2 ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .menuh2 ul li {
+            margin: 0 10px;
+        }
+        .menuh2 ul li a {
+            display: inline-block;
+            background: #463124;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 22px;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .menuh2 ul li a:hover {
+            background: #9b714b;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+ /* Основний контент */
+ section {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .footer-content p {
+            margin: 5px 0;
+        }
+        .footer-links a {
+            color: #f4a261;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .footer-links a:hover {
+            color: #ffcc00;
+        }
+
+        section h2, section h3 {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        section p {
+            color: #ddd;
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Логотип" class="logo">
+        <h1 style="color: #fff; font-size: 28px; font-weight: bold; text-align: center;">Контакти</h1>
+        <nav class="menuh2">
+            <ul>
+                <li><a href="index.html">На головну</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <h2>Як ми можете зав'язатись з нами.</h2>
+        <p>За одним з натрунних способів:</p>
+        <h3>Електрона пошта:</h3>
+        <p>oleksanderdronchak909@gmail.com</p>
+        <h3>Номер телефону:</h3>
+        <p>+38(096)253-68-71</p>
+        <p>+38(093)791-67-70</p>
+        <h3>Адрес:</h3>
+        <p>Вулиця 1-го Травня, 39, Хмільник, Вінницька область.</p>
+        <p>Якщо є запитання чи Пропозиції звертайтесь за одним зі способів.</p>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Освітній сайт | Всі права захищено</p>
+        </div>
+    </footer>
+</body>
+</html>

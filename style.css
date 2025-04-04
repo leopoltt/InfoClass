@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('111.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+/* Шапка сайту */
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #463124, #9b714b);
+    color: white;
+    padding:60px 40px 70px; /* Піднятий заголовок */
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 140px;
+    position: absolute;
+    top: 40px;
+    left: 3px;
+}
+
+/* Секції */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+    text-align: left;
+}
+
+/* Заголовки */
+h2 {
+    color: #000000;
+    font-size: 35px;
+}
+
+/* Підвал сайту */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Блок з інформацією */
+.info-section {
+    padding: 45px 10%; /* Піднято блок вище */
+    background: url('img/111.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.info-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.info-content p {
+    margin-bottom: 15px;
+}
+
+.info-content strong {
+    color: #74ebd5;
+    font-size: 20px;
+}
+/* Переміщиня кнопок */
+.menu ul {
+    position: absolute; /* або relative, fixed */
+    left: 500px;
+    top: 60px;
+}
+
+.menuh1 ul {
+    position: absolute; /* або relative, fixed */
+    left: 850px;
+    top: 80px;
+}
+
+.menuh2 ul {
+    position: absolute; /* або relative, fixed */
+    left: 850px;
+    top: 90px;
+}
+
+/* Блок з інформацією */
+.about {
+    padding: 45px 10%; /* Піднято блок вище */
+    background: url('img/111.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.about {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.about strong {
+    color: #74ebd5;
+    font-size: 20px;
+}
+
+
+.advantage-box p {
+    margin-bottom: 15px;
+}
+
+.advantage-box strong {
+    color: #74ebd5;
+    font-size: 20px;
+}

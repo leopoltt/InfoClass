@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Теми уроків</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+ /* Меню */
+ .menuh1 ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .menuh1 ul li {
+            margin: 0 10px;
+        }
+        .menuh1 ul li a {
+            display: inline-block;
+            background: #463124;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .menuh1 ul li a:hover {
+            background: #9b714b;
+            transform: scale(1.05);
+        }
+
+        /* Основний контент */
+        section {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: #ddd;
+        }
+
+        /* Картки книг */
+        .book {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(70, 70, 70, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 15px 0;
+        }
+
+        .book img {
+            width: 120px;
+            height: 160px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .book-info {
+            flex: 1;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        .book a {
+            display: inline-block;
+            background: #9b714b;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.2s;
+            margin-right: 10px;
+        }
+
+        .book a:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Підвал */
+        footer {
+            background: rgb(51, 51, 51);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Логотип" class="logo">
+        <h1>5-11 клас НУШ: Теми уроків</h1>
+        <nav class="menuh1">
+            <ul>
+                <li><a href="index.html">На головну</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Збірка підручників 5-11 класів</h2>
+        <h3>До кожного підручника є посилання на офіційне джерело.</h3>
+        <a href="https://mon.gov.ua/static-objects/mon/sites/1/zagalna%20serednya/programy-5-9-klas/onovlennya-12-2017/programa-informatika-5-9-traven-2015.pdf"style="font-size: 18px; font-weight: bold; color: #74ebd5;">📘 Програма курсу ІНФОРМАТИКА 5 – 9 класи</a>
+
+        <div class="book">
+            <img src="112.png" alt="Інформатика 5 клас">
+            <div class="book-info">
+                <h3>Інформатика (Ривкінд) 5 клас</h3>
+                <a href="https://pidruchnyk.com.ua/1660-informatyka-5-klas-ryvkind-2022.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-5">📝 Тести</a>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="113.jpg" alt="Інформатика 6 клас">
+            <div class="book-info">
+                <h3>Інформатика (Ривкінд) 6 клас</h3>
+                <a href="https://pidruchnyk.com.ua/2686-informatyka-6-klas-ryvkind-2023.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-6">📝 Тести</a>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="114.jpg" alt="Інформатика 7 клас">
+            <div class="book-info">
+                <h3>Інформатика (Коршунова) 7 клас</h3>
+                <a href="https://pidruchnyk.com.ua/2807-informatyka-korshunova-7-klas-2024.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-7">📝 Тести</a>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="115.jpg" alt="Інформатика 8 клас">
+            <div class="book-info">
+                <h3>Інформатика (Морзе, Барна) 8 клас</h3>
+                <a href="https://pidruchnyk.com.ua/839-informatyka-8-klas-morze-2016.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-8">📝 Тести</a>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="116.jpg" alt="Інформатика 8 клас">
+            <div class="book-info">
+                <h3>Інформатика (Морзе, Барна, Вембер) 9 клас 2017.</h3>
+                <a href="https://pidruchnyk.com.ua/961-informatyka-9-klas-morze-2017.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-9">📝 Тести</a>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="117.jpg" alt="Інформатика 8 клас">
+            <div class="book-info">
+                <h3>Інформатика академічний, профільний рівень (Ривкінд) 10 клас.</h3>
+                <a href="https://pidruchnyk.com.ua/435-nformatika-akademchniy-proflniy-rven-rivknd-10-klas.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-10">📝 Тести</a>
+            </div>
+        </div>
+        <div class="book">
+            <img src="118.jpg" alt="Інформатика 8 клас">
+            <div class="book-info">
+                <h3>Інформатика академічний, профільний рівень (Ривкінд) 11 клас.</h3>
+                <a href="https://pidruchnyk.com.ua/483-nformatika-akademchniy-proflniy-rven-rivknd-11-klas.html">📖 Підручник</a>
+                <a href="https://naurok.com.ua/test/informatika/klas-11">📝 Тести</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Освітній сайт | Всі права захищено</p>
+    </footer>
+
+</body>
+</html>
